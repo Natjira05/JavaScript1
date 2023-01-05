@@ -3,7 +3,7 @@ const array = [15, 16, 17, 18, 19];
 function reducer(accumlator, currentValue, index ){
   const returns = accumlator + currentValue ;
   console.log(
-    'accumulator: ${accumulator}, currentValue: ${currentValue}, index : ${index}, returns : ${returns} ' 
+    `accumulator:  ${accumulator}, currentValue: ${currentValue}, index : ${index}, returns : ${returns} ` 
   ) ;
   return returns ;
 }
