@@ -11,4 +11,4 @@ function showname(value){
   }
 }
 
-console.log(showname(furniture));
+console.log(showname(furniture)); 

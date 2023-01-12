@@ -1,4 +1,4 @@
-const hello = require('/libHello')
+const hello = require('./libHello')
 
 hello.sayHello();
 console.log(hello.person.name);
