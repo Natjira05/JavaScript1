@@ -5,7 +5,7 @@ function yayOrNay() {
   });
 }
 
-async function msg() {
+async function msg() {'['
   try{
       const msg = await yayOrNay();
       console.log(msg);
